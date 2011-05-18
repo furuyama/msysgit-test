@@ -1,0 +1,14 @@
+application: [application name]
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /show
+  script: showAllTitle.py
+- url: /create
+  script: createNewDoc.py
+
+builtins:
+- remote_api: on
+- datastore_admin: on

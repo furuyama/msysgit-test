@@ -1,26 +1,25 @@
-1. Google Docs API‚ğ‚·•û–@
-ƒvƒƒOƒ‰ƒ€‚ğÀs‚·‚é‘O‚ÉCcreateNewDoc.py, showAllTitle.py‚»‚ê‚¼‚ê‚Ìƒ\[ƒX’†‚Ìƒ[ƒ‹ƒAƒhƒŒƒX‚ÆƒpƒXƒ[ƒh‚ğ©g‚Ì‹ZŒ|ƒhƒƒCƒ“i‚Ü‚½‚Í’P‚ÉgmailƒAƒJƒEƒ“ƒgj‚É•ÏX‚·‚éD
-ƒ[ƒJƒ‹‚ÈŠÂ‹«‚Å‚ ‚ê‚Î‚±‚ê‚¾‚¯‚ÅƒvƒƒOƒ‰ƒ€‚Í“®ì‚·‚éD
-http://localhost:8080ˆÈ‰º‚É/show‚ğ•t‚¯‘«‚·‚ÆŒ»İ‚ÌƒhƒLƒ…ƒƒ“ƒgˆê——‚ª•\¦‚³‚êC/create‚ğ•t‚¯‘«‚·‚ÆGoogleDocuments‚É‚Rí—Ş‚ÌV‹Kƒtƒ@ƒCƒ‹‚ğì¬D
+1. Google Docs APIã‚’è©¦ã™æ–¹æ³•
+ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å®Ÿè¡Œã™ã‚‹å‰ã«ï¼ŒcreateNewDoc.py, showAllTitle.pyãã‚Œãã‚Œã®ã‚½ãƒ¼ã‚¹ä¸­ã®ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã¨ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’è‡ªèº«ã®æŠ€èŠ¸ãƒ‰ãƒ¡ã‚¤ãƒ³ï¼ˆã¾ãŸã¯å˜ã«gmailã‚¢ã‚«ã‚¦ãƒ³ãƒˆï¼‰ã«å¤‰æ›´ã™ã‚‹ï¼
+ãƒ­ãƒ¼ã‚«ãƒ«ãªç’°å¢ƒã§ã‚ã‚Œã°ã“ã‚Œã ã‘ã§ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯å‹•ä½œã™ã‚‹ï¼
+http://localhost:8080ä»¥ä¸‹ã«/showã‚’ä»˜ã‘è¶³ã™ã¨ç¾åœ¨ã®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆä¸€è¦§ãŒè¡¨ç¤ºã•ã‚Œï¼Œ/createã‚’ä»˜ã‘è¶³ã™ã¨GoogleDocumentsã«ï¼“ç¨®é¡ã®æ–°è¦ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆï¼
 
-2. Datastore ‚ÌƒAƒbƒvƒ[ƒh^ƒ_ƒEƒ“ƒ[ƒh‚ğ‚·•û–@
-EƒoƒCƒiƒŠƒtƒ@ƒCƒ‹‚ÅƒAƒbƒvƒ[ƒh^ƒ_ƒEƒ“ƒ[ƒh‚·‚éê‡
-@’[––‚ÅTestƒfƒBƒŒƒNƒgƒŠ’¼‰º‚Ü‚ÅˆÚ“®‚µCˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ğÀs‚·‚é
+2. Datastore ã®ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ï¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚’è©¦ã™æ–¹æ³•
+ãƒ»ãƒã‚¤ãƒŠãƒªãƒ•ã‚¡ã‚¤ãƒ«ã§ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ï¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹å ´åˆ
+ã€€ç«¯æœ«ã§Testãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªç›´ä¸‹ã¾ã§ç§»å‹•ã—ï¼Œä»¥ä¸‹ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹
 [Download]
-appcfg.py download_data --application=<‘ÎÛ‚Æ‚µ‚½‚¢ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼> --kind=<kind> --url=http://<ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼>.appspot.com/_ah/remote_api --filename=<•Û‘¶‚µ‚½‚¢ƒtƒ@ƒCƒ‹–¼>
+appcfg.py download_data --application=<å¯¾è±¡ã¨ã—ãŸã„ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å> --kind=<kind> --url=http://<ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å>.appspot.com/_ah/remote_api --filename=<ä¿å­˜ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«å>
 
-<•Û‘¶‚µ‚½‚¢ƒtƒ@ƒCƒ‹–¼>‚Æ‚ÍMac‚È‚ç—á‚¦‚Î/Users/s.yamazaki/Documents/data.dump‚È‚ÇD--kind==<kind>‚ÍƒIƒvƒVƒ‡ƒ“‚ÅCƒ_ƒEƒ“ƒ[ƒh‚µ‚½‚¢ƒ‚ƒfƒ‹‚ğw’è‚Å‚«‚éD
+<ä¿å­˜ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«å>ã¨ã¯Macãªã‚‰ä¾‹ãˆã°/Users/s.yamazaki/Documents/data.dumpãªã©ï¼--kind==<kind>ã¯ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã§ï¼Œãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸã„ãƒ¢ãƒ‡ãƒ«ã‚’æŒ‡å®šã§ãã‚‹ï¼
 
 [Upload]
-appcfg.py upload_data --application=<ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼> --kind=<kind> --filename=<•Û‘¶‚µ‚½‚¢ƒtƒ@ƒCƒ‹–¼> <‚¨‚»‚ç‚­app.yaml‚ª‚ ‚éƒtƒHƒ‹ƒ_‚ğw’èDsrc/‚È‚Ç>
+appcfg.py upload_data --application=<ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å> --kind=<kind> --filename=<ä¿å­˜ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«å> <ãŠãã‚‰ãapp.yamlãŒã‚ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã‚’æŒ‡å®šï¼src/ãªã©>
 
-‚½‚¾‚µC‚±‚Ì•û–@‚ÅƒAƒbƒvƒ[ƒh^ƒ_ƒEƒ“ƒ[ƒh‚Å‚«‚é‚Ì‚ÍƒoƒCƒiƒŠƒtƒ@ƒCƒ‹‚Ì‚İ‚È‚Ì‚ÅC‚ ‚­‚Ü‚ÅƒoƒbƒNƒAƒbƒv‚É‚µ‚©‚È‚ç‚È‚¢D
+ãŸã ã—ï¼Œã“ã®æ–¹æ³•ã§ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ï¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã‚‹ã®ã¯ãƒã‚¤ãƒŠãƒªãƒ•ã‚¡ã‚¤ãƒ«ã®ã¿ãªã®ã§ï¼Œã‚ãã¾ã§ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ã«ã—ã‹ãªã‚‰ãªã„ï¼
 
-EƒeƒLƒXƒgƒtƒ@ƒCƒ‹(csv)‚ÅƒAƒbƒvƒ[ƒh^ƒ_ƒEƒ“ƒ[ƒh‚·‚é•û–@
-@“¯‚¶‚­TestƒfƒBƒŒƒNƒgƒŠ’¼‰º‚É‚ÄˆÈ‰º‚ÌƒRƒ}ƒ“ƒh‚ğÀs
+ãƒ»ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«(csv)ã§ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ï¼ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹æ–¹æ³•
+ã€€åŒã˜ãTestãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªç›´ä¸‹ã«ã¦ä»¥ä¸‹ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œ
 [Download]
-appcfg.py download_data --config_file=bulkloader.yaml --filename=<•Û‘¶‚µ‚½‚¢ƒtƒ@ƒCƒ‹–¼.csv> --kind=Account --url=http://<ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼>.appspot.com/_ah/remote_api
+appcfg.py download_data --config_file=bulkloader.yaml --filename=<ä¿å­˜ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«å.csv> --kind=Account --url=http://<ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å>.appspot.com/_ah/remote_api
 
 [Upload]
-appcfg.py upload_data --config_file=bulkloader.yaml --filename=<ƒAƒbƒvƒ[ƒh‚µ‚½‚¢ƒtƒ@ƒCƒ‹–¼.csv> --kind=Account --url=http://<ƒAƒvƒŠƒP[ƒVƒ‡ƒ“–¼>.appspot.com/_ah/remote_api
-
+appcfg.py upload_data --config_file=bulkloader.yaml --filename=<ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã—ãŸã„ãƒ•ã‚¡ã‚¤ãƒ«å.csv> --kind=Account --url=http://<ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³å>.appspot.com/_ah/remote_api
